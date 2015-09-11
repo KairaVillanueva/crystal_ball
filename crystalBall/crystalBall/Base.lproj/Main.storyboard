@@ -35,7 +35,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="hTX-QK-P2L">
-                                <rect key="frame" x="0.0" y="164" width="600" height="436"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1cO-mq-1vr">
                                 <rect key="frame" x="0.0" y="239" width="600" height="315"/>
@@ -63,7 +63,7 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="37r-eE-wSt">
-                                <rect key="frame" x="0.0" y="164" width="600" height="51"/>
+                                <rect key="frame" x="0.0" y="172" width="600" height="51"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="24"/>
                                 <state key="normal" title="Submit">
@@ -74,7 +74,7 @@
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Enter Question Here" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="CRa-gU-hdJ">
-                                <rect key="frame" x="0.0" y="64" width="600" height="100"/>
+                                <rect key="frame" x="0.0" y="72" width="600" height="100"/>
                                 <color key="backgroundColor" red="0.55465064776610951" green="0.5636067961263469" blue="0.96648121840000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="600" id="DAS-PH-yEf"/>
@@ -99,8 +99,8 @@
                             <constraint firstItem="1cO-mq-1vr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="mjd-bA-Uls"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="1cO-mq-1vr" secondAttribute="bottom" constant="46" id="x4n-sy-L8u"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="hTX-QK-P2L" secondAttribute="bottom" id="yun-C8-JmA"/>
-                            <constraint firstItem="hTX-QK-P2L" firstAttribute="top" secondItem="CRa-gU-hdJ" secondAttribute="bottom" id="z1V-P4-hkh"/>
-                            <constraint firstItem="CRa-gU-hdJ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="zOU-gJ-jLq"/>
+                            <constraint firstItem="hTX-QK-P2L" firstAttribute="top" secondItem="CRa-gU-hdJ" secondAttribute="bottom" constant="-172" id="z1V-P4-hkh"/>
+                            <constraint firstItem="CRa-gU-hdJ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="zOU-gJ-jLq"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ubV-0O-2FM"/>
@@ -127,7 +127,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="iAF-Ms-24P">
-                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sWs-CF-Zwd">
                                 <rect key="frame" x="0.0" y="172" width="600" height="256"/>
@@ -149,7 +149,7 @@
                             <constraint firstAttribute="trailing" secondItem="sWs-CF-Zwd" secondAttribute="trailing" id="LZM-UY-DfE"/>
                             <constraint firstItem="sWs-CF-Zwd" firstAttribute="centerY" secondItem="qhA-85-bMm" secondAttribute="centerY" id="e6V-wC-RJq"/>
                             <constraint firstItem="sWs-CF-Zwd" firstAttribute="centerX" secondItem="qhA-85-bMm" secondAttribute="centerX" id="h2S-yG-mM6"/>
-                            <constraint firstItem="iAF-Ms-24P" firstAttribute="top" secondItem="up7-SO-zvf" secondAttribute="bottom" id="o8M-p0-5fX"/>
+                            <constraint firstItem="iAF-Ms-24P" firstAttribute="top" secondItem="up7-SO-zvf" secondAttribute="bottom" constant="-64" id="o8M-p0-5fX"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="geA-z4-YJF"/>

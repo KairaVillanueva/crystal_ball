@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="udq-Xk-0ii">
-                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Crystal Ball" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kiz-Jg-Zfc">
                                 <rect key="frame" x="162" y="147" width="276" height="91"/>
@@ -32,7 +32,7 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="udq-Xk-0ii" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" id="GvG-qE-9Jj"/>
+                            <constraint firstItem="udq-Xk-0ii" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="-20" id="GvG-qE-9Jj"/>
                             <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="udq-Xk-0ii" secondAttribute="bottom" id="P8w-m0-8QW"/>
                             <constraint firstItem="udq-Xk-0ii" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="irB-MZ-1M8"/>
                             <constraint firstAttribute="trailing" secondItem="udq-Xk-0ii" secondAttribute="trailing" id="kge-bf-5tH"/>
