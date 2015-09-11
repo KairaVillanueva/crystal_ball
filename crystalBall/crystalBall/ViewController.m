@@ -58,7 +58,7 @@
     
     NSInteger randomIndex = arc4random_uniform(emojies.count);
     NSString *randomEmoji = emojies[randomIndex];
-    NSString *str = [NSString stringWithFormat:@"Your fortune is %@", randomEmoji];
+    NSString *str = [NSString stringWithFormat:@"%@", randomEmoji];
     self.emojiLabel.text = [str emojizedString];
 }
 

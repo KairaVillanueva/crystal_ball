@@ -17,18 +17,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dragonlady" translatesAutoresizingMaskIntoConstraints="NO" id="7LG-9u-mii">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="udq-Xk-0ii">
                                 <rect key="frame" x="0.0" y="20" width="600" height="580"/>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Crystal Ball" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kiz-Jg-Zfc">
+                                <rect key="frame" x="162" y="147" width="276" height="91"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="55"/>
+                                <color key="textColor" red="0.88058633929999997" green="0.18510245889999999" blue="1" alpha="0.72999999999999998" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.55465064779999995" green="0.56360679609999997" blue="0.96648121840000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="shadowOffset" width="0.0" height="3"/>
+                            </label>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="7LG-9u-mii" secondAttribute="trailing" id="9hU-0O-trA"/>
-                            <constraint firstItem="7LG-9u-mii" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="R6E-6e-fK9"/>
-                            <constraint firstItem="7LG-9u-mii" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" id="ZvK-s2-5lP"/>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="7LG-9u-mii" secondAttribute="bottom" id="kZx-AF-UDY"/>
+                            <constraint firstItem="udq-Xk-0ii" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" id="GvG-qE-9Jj"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="udq-Xk-0ii" secondAttribute="bottom" id="P8w-m0-8QW"/>
+                            <constraint firstItem="udq-Xk-0ii" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="irB-MZ-1M8"/>
+                            <constraint firstAttribute="trailing" secondItem="udq-Xk-0ii" secondAttribute="trailing" id="kge-bf-5tH"/>
+                            <constraint firstItem="kiz-Jg-Zfc" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-108" id="odg-nU-ehY"/>
+                            <constraint firstItem="kiz-Jg-Zfc" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="qLR-5d-CQC"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -38,6 +47,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="dragonlady" width="1600" height="1063"/>
+        <image name="bg" width="640" height="1136"/>
     </resources>
 </document>

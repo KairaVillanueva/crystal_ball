@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D21399E1BA252AD00EBCB11 /* JandaManateeSolid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D21399D1BA252AD00EBCB11 /* JandaManateeSolid.ttf */; };
 		3D93CBE41B80F313001AD6E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D93CBE31B80F313001AD6E1 /* main.m */; };
 		3D93CBE71B80F313001AD6E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D93CBE61B80F313001AD6E1 /* AppDelegate.m */; };
 		3D93CBEA1B80F313001AD6E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D93CBE91B80F313001AD6E1 /* ViewController.m */; };
@@ -48,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D21399D1BA252AD00EBCB11 /* JandaManateeSolid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = JandaManateeSolid.ttf; path = ../../../../Downloads/janda_manatee/JandaManateeSolid.ttf; sourceTree = "<group>"; };
 		3D93CBDF1B80F313001AD6E1 /* crystalBall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = crystalBall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D93CBE31B80F313001AD6E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3D93CBE51B80F313001AD6E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -166,6 +168,7 @@
 		3D93CBE21B80F313001AD6E1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3D21399D1BA252AD00EBCB11 /* JandaManateeSolid.ttf */,
 				3D93CBE31B80F313001AD6E1 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -309,6 +312,7 @@
 				3D93CC381B810395001AD6E1 /* AcousticModelSpanish.bundle in Resources */,
 				3D93CC9F1B8134C8001AD6E1 /* spark.png in Resources */,
 				3D93CC371B810395001AD6E1 /* AcousticModelEnglish.bundle in Resources */,
+				3D21399E1BA252AD00EBCB11 /* JandaManateeSolid.ttf in Resources */,
 				3D93CBEF1B80F313001AD6E1 /* Assets.xcassets in Resources */,
 				3D93CBED1B80F313001AD6E1 /* Main.storyboard in Resources */,
 			);
