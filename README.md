@@ -4,7 +4,11 @@
 
 ####Who will you marry? What will you eat? Only the crystal ball can tell you. Maybe? Who knows!
 
+<b>Requirements</b>:
+
 This is an iPhone application that is available for 4s, 5s, 5c, 6, and 6s. In order to run the file, you need to download the latest version of Xcode and set the build to the iPhone simulator you are using. 
+
+<b>Description</b>:
 
 A question is added in the text field and once submitted, the "crystal ball" will give you your answer in the form of iOS emojis. It's up to the user whether they want to take this fortune lightly or not (it's recommended not to).
 
