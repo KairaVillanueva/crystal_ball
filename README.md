@@ -12,6 +12,5 @@ This is an iPhone application that is available for 4s, 5s, 5c, 6, and 6s. In or
 
 A question is added in the text field and once submitted, the "crystal ball" will give you your answer in the form of iOS emojis. It's up to the user whether they want to take this fortune lightly or not (it's recommended not to).
 
-![crystal ball](/images/cb1.png)
-![crystal ball](/images/cb2.png)
 ![crystal ball](/images/cb3.png)
+![crystal ball](/images/cb2.png)
